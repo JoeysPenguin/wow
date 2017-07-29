@@ -1,0 +1,347 @@
+/*reset css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    /*border: 1px solid #fff;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*common css*/
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*page css*/
+
+body {
+    font: 12px/1.3 arial;
+    background-color: #000;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background: url(http://wow.nos.netease.com/1/landing/wow/L6XE4AK0U404JMU.jpg) no-repeat top;
+    background-size: center;
+    height: 160%;
+    overflow: hidden;
+}
+
+header .navbar {
+    margin-top: 40px;
+}
+
+header .navbar>li {
+    float: left;
+    border-left: 1px solid #291b16;
+    border-right: 1px solid #3f2a22;
+    height: 70px;
+    width: 160px;
+    background-color: #241711;
+}
+
+header .navbar>.logo {
+    width: 240px;
+}
+
+header .navbar a {
+    color: #f8b700;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header .navbar a:hover {
+    color: #fff;
+}
+
+header .navbar li img {
+    position: relative;
+    top: -45px;
+}
+
+header .main-element a {
+    display: block;
+}
+
+header .main-element img {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+
+/*content*/
+
+content .list {
+    margin-top: -240px;
+}
+
+content .list li {
+    width: 291px;
+    float: left;
+    margin-left: 12px;
+}
+
+content .list li a {
+    transition: all .3s;
+}
+
+content .list li:hover a {
+    transform: translateY(-60px);
+}
+
+content .list li:first-child {
+    margin-left: 0;
+}
+
+content .list li h3 {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #f8b700;
+    background-color: #211510;
+    border-bottom: 2px solid #3f2a22;
+    height: 50px;
+    text-align: center;
+}
+
+content .list li a {
+    display: block;
+    height: 200px;
+    border: 2px solid #3f2a22;
+}
+
+content .list li img {
+    height: 146px;
+    width: 287px;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 40px;
+    padding-top: 100px;
+    border-top: 2px solid #3f2a22;
+}
+footer .bussiness {
+    display: flex;
+    justify-content: center;
+}
+
+footer .bussiness .service {
+    width: 400px;
+}
+
+footer .bussiness .service .btn li {
+    float: left;
+    padding: 0 20px;
+}
+footer .service .btn li:first-child {
+    padding-left: 0;
+}
+footer .bussiness .service .btn a {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    line-height: 60px;
+}
+
+footer .bussiness .service .btn a:hover {
+    color: #fff;
+}
+
+footer .bussiness .service .btn .icon {
+    background-image: url(http://book.jirengu.com/jrg-team/frontend-knowledge-ppt/code/task/wow/imgs/icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    vertical-align: middle;
+}
+
+footer .bussiness .service .btn .kefu {
+    background-position: -5px -5px;
+}
+
+footer .bussiness .service .btn .return {
+    background-position: -35px -5px;
+}
+
+footer .bussiness .service .btn .join {
+    background-position: -7px -32px;
+}
+
+footer .bussiness .cp-logo #blizzard {
+    display: inline-block;
+    background-image: url(http://hearthstone.nos.netease.com/3/suspense/logo_blizzard.png);
+    height: 80px;
+    width: 140px
+}
+
+footer .bussiness .cp-logo #netease {
+    display: inline-block;
+    background-image: url(http://hearthstone.nos.netease.com/3/suspense/logo_ne.png);
+    height: 38px;
+    width: 125px;
+    margin-left: 20px;
+}
+
+footer .bussiness .information {
+    width: 600px;
+}
+
+footer .information .cooperate {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: #fff;
+    line-height: 60px;
+}
+
+footer .information .cooperate .sprite {
+    background-image: url(http://diablo3.nos.netease.com/1/common/business-logo-wow.png);
+    background-repeat: no-repeat;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+footer .information .cooperate .intel {
+    background-position: 0 0;
+    height: 26px;
+    width: 36px;
+}
+
+footer .information .cooperate .nvidia {
+    background-position: -36px 0;
+    height: 26px;
+    width: 95px;
+}
+
+footer .information .cooperate #more {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #241101;
+    width: 14px;
+    height: 14px;
+    margin: 0 0 0 13px;
+    border: 1px solid #2d1702;
+    position: relative;
+}
+
+footer #more .line {
+    display: block;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ac771f;
+}
+
+footer #more .line-s {
+    height: 10px;
+    width: 2px;
+}
+
+footer #more:hover .line {
+    background-color: #fff;
+}
+
+footer .information .law .head a {
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    padding: 1px 12px;
+    margin-bottom: 5px;
+}
+
+footer .law .head a:first-child {
+    padding-left: 0;
+}
+
+footer .law .head a:nth-child(2) {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+footer .law .head a:hover {
+    color: #fff;
+}
+
+footer .law .body a:hover,
+footer .law .foot a:hover {
+    color: #999;
+}
+
+footer .law p,
+footer .law a {
+    font-size: 12px;
+    color: #444;
+    line-height: 20px;
+}
+
+footer .law .foot {
+    padding: 8px 0;
+}
+
+footer .law .foot a {
+    margin-right: 15px;
+}
+
+footer .law .foot img {
+    width: 27px;
+    height: 26px;
+}
+
+footer .foot a:nth-child(2)>img {
+    width: 24px;
+}
+
+footer .foot a:nth-child(3)>img {
+    width: 23px;
+}
+
+footer .foot a:nth-child(4)>img {
+    width: 27px;
+    height: 28px;
+}
+
+footer .article {
+    margin: 40px auto 0;
+    padding: 20px;
+    width: 90%;
+    border-top: 1px solid #1a1a1a;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, .3);
+}
