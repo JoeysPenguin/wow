@@ -33,17 +33,13 @@ a {
 body {
     font: 12px/1.3 arial;
     background-color: #000;
-}
-
-html,
-body {
-    height: 100%;
+    min-width: 1200px;
 }
 
 header {
     background: url(http://wow.nos.netease.com/1/landing/wow/L6XE4AK0U404JMU.jpg) no-repeat top;
     background-size: center;
-    height: 160%;
+    min-height: 1000px;
     overflow: hidden;
 }
 
